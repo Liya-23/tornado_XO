@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/web/static/static.css">
+    <title>Tic Toc Toe</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <div class="container">
+            <h4>{{ turns }}</h4>
+            <div class="grid">
+                <section>
+                    <button name="button1">{{ play }}</button>    
+                    <button name="button2">{{ play }}</button>    
+                    <button name="button3">{{ play }}</button>    
+                </section>
+                <section>
+                    <button name="button4">{{ play }}</button>  
+                    <button name="button5">{{ play }}</button>  
+                    <button name="button6">{{ play }}</button>  
+                </section>
+                <section>
+                    <button name="button7">{{ play }}</button> 
+                    <button name="button8">{{ play }}</button> 
+                    <button name="button9">{{ play }}</button> 
+                </section>
+            </div>
+            <br>
+            <br>
+            <div class="playing">
+                <h3>Who Starts?</h3>
+                <div class="xo">
+                    <input type="submit" name="first_play" value="X">
+                    <input type="submit" name="first_play" value="O">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
